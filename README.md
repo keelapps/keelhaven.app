@@ -7,6 +7,16 @@ This repository exists **only** to serve the site via GitHub Pages. The
 `gh-pages` branch is generated and force-pushed by CI from a private source
 repository — do not open PRs against it; they will be overwritten.
 
-© Keelapps. All rights reserved. The content in this repository is made
-public solely for deployment purposes. No license is granted to copy,
+## Copyright
+
+© Keelapps. All rights reserved. Keelapps' own content in this repository is
+made public solely for deployment purposes; no license is granted to copy,
 modify, or redistribute it.
+
+That claim covers Keelapps' material only. The published site also carries
+third-party open source material, which remains under its own license and is
+not restricted by the paragraph above — currently the BSD 2-Clause text for
+[restic](https://restic.net), © 2014 Alexander Neumann, which Keelhaven
+bundles and redistributes. See the site's
+[open source licenses](https://keelapps.github.io/keelhaven-site/licenses)
+page for the full notice.
