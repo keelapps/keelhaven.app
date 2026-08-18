@@ -3,9 +3,13 @@
 Published website and documentation for [Keelhaven](https://github.com/keelapps),
 a privacy-first backup app for macOS.
 
+The site it serves is live at **https://keelhaven.app**.
+
 This repository exists **only** to serve the site via GitHub Pages. The
 `gh-pages` branch is generated and force-pushed by CI from a private source
-repository — do not open PRs against it; they will be overwritten.
+repository — do not open PRs against it; they will be overwritten. That
+includes the `CNAME` file that attaches the custom domain: it is generated
+too, and editing it here will not survive the next deploy.
 
 ## Copyright
 
@@ -18,5 +22,5 @@ third-party open source material, which remains under its own license and is
 not restricted by the paragraph above — currently the BSD 2-Clause text for
 [restic](https://restic.net), © 2014 Alexander Neumann, which Keelhaven
 bundles and redistributes. See the site's
-[open source licenses](https://keelapps.github.io/keelhaven-site/licenses)
+[open source licenses](https://keelhaven.app/licenses)
 page for the full notice.
